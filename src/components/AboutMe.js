@@ -1,17 +1,34 @@
 import React from 'react';
 import MyAvatar from './../UI/MyAvatar';
 import myProfile from '../styles/images/my-profile.png';
+import HeadLine from '../UI/HeadLine';
 
 const AboutMe = () => {
   return (
-    <div className='flex flex-col justify-center max-w-[73.125rem]'>
-      <div className='text-3xl text-center border-b-2 border-dashed pb-[0.625rem] mb-10'>
-        AboutMe
+    <section className='flex flex-col justify-center pb-8'>
+      <HeadLine>About Me</HeadLine>
+      <div className='flex flex-col justify-center items-center space-y-5 md:flex-row md:justify-start md:space-y-0'>
+        <div className='flex justify-center md:basis-1/4'>
+          <MyAvatar src={myProfile} />
+        </div>
+        <div className='md:basis-3/4'>
+          <p className='break-keep text-left'>
+            <strong>Javascript</strong> 기반 웹 개발자로 3년 째 일하고 있습니다.
+            주로 금융권 프로젝트에 참여하여 최신 기술 기반 웹 개발자로 3년 째
+            일하고 있습니다. 주로 금융권 프로젝트에 참여하여 최신 기술 기반 웹
+            개발자로 3년 째 일하고 있습니다. 주로 금융권 프로젝트에 참여하여
+            최신 기술 프로젝트에 참여하여 최신 기술 기반 웹 개발자로 3년 째
+            일하고 있습니다. 주로 금융권 프로젝트에 참여하여 최신 기술
+            프로젝트에 참여하여 최신 기술 기반 웹 개발자로 3년 째 일하고
+            있습니다. 주로 금융권 프로젝트에 참여하여 최신 기술 프로젝트에
+            참여하여 최신 기술 기반 웹 개발자로 3년 째 일하고 있습니다. 주로
+            금융권 프로젝트에 참여하여 최신 기술 프로젝트에 참여하여 최신 기술
+            기반 웹 개발자로 3년 째 일하고 있습니다. 주로 금융권 프로젝트에
+            참여하여 최신 기술
+          </p>
+        </div>
       </div>
-      <div className='flex flex-col justify-center mx-[12.406rem] md:mx-[0.394rem] md:flex-row md:justify-between'>
-        <MyAvatar src={myProfile} />
-      </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,6 +1,8 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
+import Experience from './components/Experience';
 import Header from './components/Header';
+import Skill from './components/Skill';
 import Section from './UI/Section';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <Section>
         <Header />
         <AboutMe />
+        <Experience />
+        <Skill />
       </Section>
     </div>
   );

@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  mark {
+    @apply bg-black text-white font-semibold rounded-lg p-[0.15rem];
+  }
+
+  ul {
+    @apply list-disc text-left pl-6 break-keep;
+  }
+}
+
+@layer components {
+  .container {
+    @apply flex flex-col justify-center space-y-1 md:flex-row md:justify-start md:items-center pb-8;
+  }
+  .inner-left-box {
+    @apply flex flex-col pb-5 md:text-left md:basis-1/3 md:pb-0;
+  }
+  .inner-right-box {
+    @apply flex flex-col space-y-1 md:basis-2/3;
+  }
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
