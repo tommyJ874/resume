@@ -18,7 +18,7 @@ const Experience = () => {
           </span>
           <span className='text-left text-sm pb-1'>2021.12 - 2022.12</span>
           <ul>
-            <li>타시스템 SSO 연동 기능 구현</li>
+            <li>사내 타시스템 SSO 연동 기능 구현</li>
             <li>
               "청약 확정" 함수 중복 호출로 인해 대상 목록의 상세 정보 조회까지
               약 2분 소요되었던 문제를 중복 제거 및 로직 변경하여 30초 이내로
@@ -42,7 +42,7 @@ const Experience = () => {
           <span className='text-left text-sm pb-1'>2022.10 - 2022.12</span>
           <ul>
             <li>STT와 관련된 배치 서비스 개발</li>
-            <li>타시스템 기능 연계를 위한 API 개발</li>
+            <li>사내 타시스템 기능 연계를 위한 API 개발</li>
           </ul>
           <div className='flex flex-wrap justify-start gap-x-2 gap-y-2'>
             <HashTag>Javascript</HashTag>

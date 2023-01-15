@@ -1,6 +1,7 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Skill from './components/Skill';
 import Section from './UI/Section';
@@ -13,6 +14,7 @@ function App() {
         <AboutMe />
         <Experience />
         <Skill />
+        <Footer />
       </Section>
     </div>
   );

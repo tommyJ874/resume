@@ -7,7 +7,7 @@ const Header = () => {
     <header className='flex flex-col justify-between md:flex-row pb-8'>
       <div className='flex flex-col justify-start pt-[0.7rem] pb-1'>
         <div className='text-[2.5rem] font-bold md:text-left'>주진호</div>
-        <div className='text-xl'>프론트엔드 개발자</div>
+        <div className='text-xl md:text-left'>웹 개발자</div>
       </div>
       <div className='flex flex-col justify-center md:justify-end space-y-1'>
         <div className='flex justify-center md:justify-end items-center space-x-3 pb-2'>
