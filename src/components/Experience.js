@@ -114,7 +114,7 @@ const Experience = () => {
           <span className='text-left text-sm pb-1'>프론트엔드</span>
           <span className='text-left text-sm pb-1'>2020.01 - 2020.03</span>
           <ul>
-            <li>웹 접근성 표준 적용 지원</li>
+            <li>웹 접근성 표준 적용</li>
           </ul>
           <span className='font-semibold text-left pt-3'>
             농축협 우선출자 시스템 재구축
