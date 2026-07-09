@@ -13,17 +13,17 @@ const AboutMe = () => {
         </div>
         <div className='md:basis-3/4'>
           <p className='break-keep text-left'>
-            서울에서 웹 개발자로 3년째 일하고 있으며 금융권 SI, SM 프로젝트
-            경험이 있습니다. SI 특성상 프로젝트마다 팀원과 개발 환경이 다른
-            경우가 많았기 때문에 새로운 환경에 거부감 없이 빠르게 적응합니다.
-            능숙한 분야가 아니더라도 적극적으로 탐색하여 최적의 결과를 낼 수
-            있도록 노력합니다.
+            2019년부터 웹 개발자로 일하며 금융, 보험, 그룹웨어, 인사시스템
+            프로젝트를 경험했습니다. 운영 업무와 신규 개발을 함께 수행하며
+            프론트엔드와 백엔드 전반을 이해하고, 서비스 흐름에 맞는 기능을
+            안정적으로 구현하는 데 집중합니다.
           </p>
           <p className='break-keep text-left'>
-            현재는 <strong>Javascript</strong> 기반의 프레임워크에 관심이 많아{' '}
-            <mark>React</mark>, <mark>Redux</mark>, <mark>Recoil</mark> 등을
-            학습하고 있고 토이 프로젝트를 통해 Typescript 언어도 함께 적용하는
-            중입니다.
+            현재는 보험 시스템 가입설계 파트 운영과 개정 상품 개발을 담당하고
+            있으며, AI Agent 연계를 위한 업무 API 개발도 함께 진행하고
+            있습니다. <mark>Java</mark>, <mark>Spring Boot</mark>,{' '}
+            <mark>Oracle</mark>, <mark>React</mark>, <mark>Next.js</mark>,{' '}
+            <mark>TypeScript</mark> 기반의 풀스택 개발 경험이 있습니다.
           </p>
           <p className='break-keep text-left'></p>
         </div>

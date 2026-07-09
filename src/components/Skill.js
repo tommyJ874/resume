@@ -11,10 +11,10 @@ const Skill = () => {
         </div>
         <div className='inner-right-box'>
           <ul>
-            <li>ES6+, TypeScript</li>
-            <li>React, jQuery</li>
+            <li>JavaScript, TypeScript</li>
+            <li>React, Next.js, jQuery, Nexacro</li>
             <li>CSS3, Tailwind CSS, Material UI</li>
-            <li>Npm, Webpack, Recoil, Lodash</li>
+            <li>Npm, Webpack</li>
             <li>Visual Studio Code, WebStorm</li>
           </ul>
         </div>
@@ -25,9 +25,9 @@ const Skill = () => {
         </div>
         <div className='inner-right-box'>
           <ul>
-            <li>Java</li>
-            <li>Spring MVC, Spring Security, eGov</li>
-            <li>Junit</li>
+            <li>Java 8, Java 17, Java 18</li>
+            <li>Spring, Spring Boot, eGov</li>
+            <li>REST API, Batch</li>
             <li>Gradle, Maven</li>
           </ul>
         </div>
@@ -38,9 +38,10 @@ const Skill = () => {
         </div>
         <div className='inner-right-box'>
           <ul>
-            <li>Oracle, MySQL, MariaDB, Firestore</li>
+            <li>Oracle, MySQL, MariaDB</li>
             <li>Tomcat, JEUS, WebLogic</li>
-            <li>Firebase</li>
+            <li>AWS, Firebase</li>
+            <li>goPhish, UiPath</li>
             <li>Windows, Linux</li>
           </ul>
         </div>
